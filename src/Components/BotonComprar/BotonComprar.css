@@ -1,0 +1,37 @@
+.boton_comprar, .boton_comprado, .boton_procesando {
+    float: inline-end;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 3px 0;
+    width: 80%;
+    border-radius: 10px;
+    border: 0;
+    color: rgb(255, 255, 255);
+}
+
+.boton_comprado {
+    background-color: rgb(176, 221, 175);
+}
+
+.boton_comprar {
+    background-color: rgb(50, 155, 47);
+}
+
+.boton_procesando {
+    background-color: rgb(50, 155, 47);
+}
+
+.boton_comprar:hover {
+    background-color: rgb(17, 206, 14);
+}
+
+.caja_boton_comprar {
+    width: 50%;
+    display: inline;
+}
+
+@media screen and (max-width:576px) {
+    .boton_comprar, .boton_comprado, .boton_procesando {
+        font-size: 16px;
+    }
+}

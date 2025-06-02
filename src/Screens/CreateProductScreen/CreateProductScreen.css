@@ -1,0 +1,48 @@
+.caja_precio {
+    width: 68%;
+}
+
+.caja_descuento {
+    width: 28%;
+}
+
+.caja_precio_descuento {
+    display: flex;
+    justify-content: space-between;
+}
+
+.examinar_archivos {
+    float: left;
+    width: 100%;
+}
+
+input::file-selector-button {
+    line-height: 6px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    width: 40%;
+    background-color: #8095BF;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    border: 0;
+}
+
+input::file-selector-button:hover {
+    background-color: #c9c9c9;
+    color: #325598; 
+}
+
+
+@media screen and (max-width:576px) {
+    .caja_precio {
+        width: 58%;
+    }
+
+    .caja_descuento {
+        width: 38%;
+    }
+
+}

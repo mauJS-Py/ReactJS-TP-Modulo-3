@@ -1,0 +1,18 @@
+.ancho_registro {
+    min-width: fit-content;
+    max-width: 75%;
+}
+
+@media screen and (max-width:768px) {
+    .ancho_registro {
+        min-width: 90%;
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .ancho_registro {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}

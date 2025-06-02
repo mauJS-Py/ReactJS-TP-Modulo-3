@@ -1,0 +1,39 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+.display_inlineblock {
+    display: inline-block;
+}
+
+.icono {
+    position: absolute;
+    right: 6px;
+}
+
+.input_password {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    margin-bottom: 10px;
+}
+
+.input_distancia {
+    margin: 0 2px;
+}
+
+.sin_margen {
+    margin: 0;
+}
+
+@media screen and (max-width:768px) {
+
+    .display_inlineblock {
+        display: inline;
+    }
+
+    .input_distancia {
+        margin: 0;
+    }
+
+}

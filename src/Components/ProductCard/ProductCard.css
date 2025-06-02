@@ -1,0 +1,82 @@
+.caja_datos_arriba {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+.caja_detalles {
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+    width: 40%;
+}
+
+.caja_precio_anterior {
+    width: 60%;
+    padding: 5px 0;
+    display: flex;
+    justify-content: left;
+}
+
+.caja_precio_final {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    font-size: 21px;
+    font-weight:600;
+}
+
+.card_caja {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    margin: 10px;
+    max-width: max-content;
+    display: inline-block;
+}
+
+.descuento {
+    background-color:rgb(221, 49, 49);
+    font-size: 14px;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-weight: 550;
+}
+
+.img_mesadas {
+    display: flex;
+    justify-content: center;
+    min-width: 180px;
+    max-width:300px;
+    width: 100%;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.precio_final {
+    margin-top: 9px;
+    width: 40%;
+}
+
+.precio_real {
+    margin-right: 3%;
+    text-decoration: line-through;
+    justify-content: left;
+    font-size: 19px;
+
+}
+
+.titulo {
+    display: flex;
+    justify-content: start;
+    font-size: 20px;
+}
+
+.ver_detalles {
+    font-weight: 600;
+    font-size: 16px;
+}

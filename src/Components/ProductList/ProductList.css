@@ -1,0 +1,6 @@
+@media screen and (max-width:576px) {
+    .caja_paginas {
+        padding: 20px 0;
+        max-width: 100%;
+    }
+}

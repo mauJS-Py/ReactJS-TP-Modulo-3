@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "102 × 62 × 2 cm",
+        "color": "Orcollano",
+        "real_price": 155000,
+        "discount": 20,
+        "img": "http://localhost:5173/src/Components/ProductList/img/orcollano.jpg"
+    },
+    {
+        "id": 2,
+        "title": "122 × 62 × 2 cm",
+        "color": "Gris Mara",
+        "real_price": 173700,
+        "discount": 10,
+        "img": "http://localhost:5173/src/Components/ProductList/img/gris_mara.jpg"
+    },
+    {
+        "id": 3,
+        "title": "142 × 62 × 2 cm",
+        "color": "Rosa de Salto",
+        "real_price": 191200,
+        "discount": 5,
+        "img": "http://localhost:5173/src/Components/ProductList/img/rosa_de_salto.jpg"
+    },
+    {
+        "id": 4,
+        "title": "162 × 62 × 2 cm",
+        "color": "San Felipe",
+        "real_price": 208700,
+        "discount": 15,
+        "img": "http://localhost:5173/src/Components/ProductList/img/san_felipe.jpg"
+    }
+]

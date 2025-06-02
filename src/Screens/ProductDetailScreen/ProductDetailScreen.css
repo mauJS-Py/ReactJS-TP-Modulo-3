@@ -1,0 +1,73 @@
+.boton_volver {
+    margin: 0;
+    width: 100%;
+    background-color: #325598;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 15px 0;
+    border: 0;
+}
+
+.boton_volver:hover {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #c9c9c9;
+    font-weight: 700;
+    color: #325598; 
+}
+
+.caja_detalles_titulo {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;   
+}
+
+.caja_precio_boton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja_product_detail {
+    margin: 5px;
+    text-align: left;
+    background-color: #ffffff;
+    border: 4px solid #325598;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+.detalles_data {
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    border-bottom: 1px solid #c9c9c9;
+    padding: 0 20px;
+}
+
+.caja_boton_comprar {
+    float: right;
+    width: 70%;
+    margin: 10px 0;
+}
+
+.margin_arriba {
+    margin-top: 10px;
+}
+
+.padding_abajo {
+    padding-bottom: 5px;    
+}
+
+.sin_bordes {
+    border: 0;
+}
+
+.titulo_pd {
+    color: #325598;
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.titulo_seccion {
+    font-size: 22px;
+}

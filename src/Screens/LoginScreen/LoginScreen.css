@@ -1,0 +1,46 @@
+.ancho_login {
+    min-width: 45%;
+    max-width: 75%;
+}
+
+.caja_home {
+    padding: 0 15px;
+}
+
+.div_centrar {
+    display: flex;
+    justify-content: center;
+}
+
+.registrate {
+    text-decoration: none;
+    color: #325598;
+    font-weight: 700;
+}
+
+.subtitulo {
+    font-weight: 600;
+}
+
+.titulo_logo {
+    font-family: Microsoft PhagsPa, sans-serif;
+    font-size: 41px;
+    font-weight: 600;
+}
+
+.titulo_logo_solo_am {
+    color: #325598;
+    font-family: 'Segoe Print', sans-serif;
+    font-size: 44px;
+}
+
+.texto_home {
+    font-size: 18px;
+}
+
+@media screen and (max-width:768px) {
+    .ancho_login {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
